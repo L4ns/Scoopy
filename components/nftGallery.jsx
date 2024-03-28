@@ -114,6 +114,8 @@ export default function NFTGallery({}) {
                 <option value={"MATIC_MAINNET"}>Polygon</option>
                 <option value={"ETH_GOERLI"}>Goerli</option>
                 <option value={"MATIC_MUMBAI"}>Mumbai</option>
+                <option value={"MORPH_TESTNET"}></option>
+                
               </select>
             </div>
             <div onClick={() => fetchNFTs()} className={styles.button_black}>
